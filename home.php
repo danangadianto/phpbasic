@@ -1,3 +1,4 @@
+<!-- Taro di satu file tersendiri buat data -->
 <?php
 $presiden = [
     [
@@ -81,6 +82,7 @@ $presiden = [
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+    <!-- Pisahin style di satu css tersendiri tiap page -->
     <style>
         body {
             background-image: url(img/bendera.jpeg);
@@ -121,6 +123,7 @@ $presiden = [
 </head>
 <body>
     <h1>Selamat Datang <?php if( isset($_POST["name"])) : ?>
+        <!-- Buang kode yg gk kepake -->
         <?= $_POST["name"] ?> 
     <?php else : ?>
         <?= "" ?>

@@ -1,18 +1,19 @@
-<?php 
-    // if( !isset($_GET["nama"]) || 
-    //     !isset($_GET["year"]) || 
-    //     !isset($_GET["gdp"]) || 
-    //     !isset($_GET["growth"]) || 
-    //     !isset($_GET["inflation"]) || 
-    //     !isset($_GET["debt"]) || 
-    //     !isset($_GET["ratio"]) || 
-    //     !isset($_GET["pic"]) ) {
-    //     header("Location: home.php");
-    //     exit;
-    // }
+<?php
+// if( !isset($_GET["nama"]) || 
+//     !isset($_GET["year"]) || 
+//     !isset($_GET["gdp"]) || 
+//     !isset($_GET["growth"]) || 
+//     !isset($_GET["inflation"]) || 
+//     !isset($_GET["debt"]) || 
+//     !isset($_GET["ratio"]) || 
+//     !isset($_GET["pic"]) ) {
+//     header("Location: home.php");
+//     exit;
+// }
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,9 +57,9 @@
             text-align: center;
             margin: 1px;
         }
-
     </style>
 </head>
+
 <body>
     <div class="container">
         <h1>Data Presiden Republik Indonesia</h1>
@@ -76,7 +77,8 @@
             <div>Rasio Utang: <ins><?= $_GET["ratio"] ?></ins></div>
         </div>
     </div>
-    
+
     <a href="home.php">Back to Homepage</a>
 </body>
+
 </html>
